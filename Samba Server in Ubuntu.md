@@ -14,3 +14,7 @@
     
     #改变文件的读写权限
     chmod 777 /opt
+    
+    #启动或者重启samba服务
+    /etc/init.d/smbd start
+    /etc/init.d/smbd restart
