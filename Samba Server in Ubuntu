@@ -1,5 +1,6 @@
 # 我的搭建的Samba的过程 
-##
+
+
     apt install samba   #安装samba
     cd /etc/samba       #进入到samba的配置目录
     cp smb.conf smb.conf.bak    #备份samba的配置文件 
