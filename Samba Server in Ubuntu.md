@@ -1,4 +1,6 @@
-<h1> 我的samba搭建的过程 </h1>
+# 我的samba搭建的过程 
+<br>
+第一次安装samba,还有很多缺陷
 
     apt install samba   #安装samba
     cd /etc/samba       #进入到samba的配置目录
