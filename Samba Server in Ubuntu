@@ -1,5 +1,4 @@
-# 我的搭建的Samba的过程 
-
+<h1> 我的samba搭建的过程 </h1>
 
     apt install samba   #安装samba
     cd /etc/samba       #进入到samba的配置目录
