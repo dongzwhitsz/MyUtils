@@ -21,4 +21,5 @@
     
 >apt-get update
 
+## <a href="https://blog.csdn.net/paincupid/article/details/52895676">附一个其他镜像源的链接</a>
 
