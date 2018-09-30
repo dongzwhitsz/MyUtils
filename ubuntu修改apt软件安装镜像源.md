@@ -1,4 +1,4 @@
-# ubuntu]修改 Ubuntu16.04 源为清华大学
+# ubuntu修改 Ubuntu16.04 源为清华大学
 
 >cd /etc/apt
  cp sources.list sources.bak
