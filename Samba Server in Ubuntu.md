@@ -1,4 +1,4 @@
-# 我的samba搭建的过程 
+# 我的samba4搭建的过程 
 <br>
 第一次安装samba,还有很多缺陷
 
@@ -18,3 +18,13 @@
     #启动或者重启samba服务
     /etc/init.d/smbd start
     /etc/init.d/smbd restart
+    
+samba4以前的samba版本中该项可以设置为share，但在samba4中如果设置为share，会因为配置文件错误无法启动samba服务，因为share和server已经被废弃
+
+    security = user
+    map to guest = Bad User
+    
+通过以上配置之后可以直接在windows中访问设置的分享文件，不用输入密码，<br>
+如果要配置为用户登陆模式需要添加系统中已存的用户于samba用户中
+>smbpasswd -a user-name  
+
