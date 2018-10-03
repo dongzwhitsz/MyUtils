@@ -3,6 +3,5 @@
 > apt-get install rpcbind
 
 > apt-get install nfs-kernel-server
-
 编辑配置文件 
 >vim /etc/exports
