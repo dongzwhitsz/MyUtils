@@ -35,6 +35,7 @@ samba4以前的samba版本中该项可以设置为share，但在samba4中如果�
  cp smb.cnof smb.conf.bak
 
 配置samba服务文件
+
     workgroup = WORKGROUP
     [dongzw centos shares]  #共享显示的目录名
     comment = anything you like to
