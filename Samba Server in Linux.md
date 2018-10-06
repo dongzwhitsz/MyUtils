@@ -53,4 +53,6 @@ samba4以前的samba版本中该项可以设置为share，但在samba4中如果�
 增加防火墙可允许的服务
 >firewall-cmd --permanent --add-port=139/tcp  
  firewall-cmd --permanent --add-port=445/tcp
+ 
+修改selinux的权限或者直接关闭selinux
 
