@@ -1,7 +1,6 @@
 # 我的samba4搭建的过程 
 <br>
-##  第一次安装samba是在Unbutu下面,还有很多缺陷
-
+## 第一次安装samba是在Unbutu下面,还有很多缺陷
     apt install samba   #安装samba
     cd /etc/samba       #进入到samba的配置目录
     cp smb.conf smb.conf.bak    #备份samba的配置文件 
