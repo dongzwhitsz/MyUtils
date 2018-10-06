@@ -35,12 +35,12 @@ samba4以前的samba版本中该项可以设置为share，但在samba4中如果�
  cp smb.cnof smb.conf.bak
 
 配置samba服务文件
-        workgroup = WORKGROUP
-        [dongzw centos shares]  #共享显示的目录名
-        comment = anything you like to
-        path = /mnt/Shares   #设置共享的目录
-        writable = yes #设置可写
-        browseable = yes
+    workgroup = WORKGROUP
+    [dongzw centos shares]  #共享显示的目录名
+    comment = anything you like to
+    path = /mnt/Shares   #设置共享的目录
+    writable = yes #设置可写
+    browseable = yes
 
 重启samba服务
 >systemctl restart smb
