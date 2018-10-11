@@ -3,12 +3,12 @@
 3. 安装完成之后，
 >vim /boot/grub2/grub.cfg
 
-在
+在    
 
     ### BEGIN /etc/grub.d/30_os-prober ###
     ### BEGIN /etc/grub.d/30_os-prober ###
 
-之间增加下面代码
+之间增加下面代码    
  
     menuentry 'win10'{
     insmod ntfs
