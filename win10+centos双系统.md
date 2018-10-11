@@ -18,3 +18,4 @@
 
 ## (hd0,1),hd0表示第0块硬盘，1表示第一个分区，用来寻找你安装win10的地方，可能根据实际情况不相同，chainloader +1,别打错了，是+1
 
+[参考链接](http://lib.csdn.net/article/linux/38477)
