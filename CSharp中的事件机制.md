@@ -1,7 +1,7 @@
     using System;
     namespace ConsoleApp1
     {    
-        class Publisher    //定义一个可以事件发布器
+        class Publisher    //定义一个事件发布器
         {
             public delegate int MyDelegate(int a);      //声明一个可以处理事件的委托
             public event MyDelegate MyEvent;            //声明一个事件，处理的委托类型为 MyDelegate
