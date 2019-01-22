@@ -12,7 +12,7 @@
  
     menuentry 'win10'{
     insmod ntfs
-    set root=hd(0,2)
+    set root=(hd0,2)
     chainloader +1
     }
 
