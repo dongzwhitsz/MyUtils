@@ -11,3 +11,7 @@
  step2.  <a href = "https://blog.csdn.net/chirebingxue/article/details/50393755">安装pygraphviz</a>
 
         pip install pygraphviz --install-option="--include-path=/usr/include/graphviz" --install-option="--library-path=/usr/lib/graphviz/"
+        
+        
+        
+Starting Website:https://pynq.readthedocs.io/en/latest/getting_started.html
