@@ -1,6 +1,6 @@
 >1、删除HKEY_CURRENT_USER\Software\Microsoft\SystemCertificates\Root\ProtectedRoots 
- 2、删除HKEY_CURRENT_USER\Software\Microsoft\SystemCertificates\Root\Certificates
- 3、删除HKEY_CURRENT_USER\Software\Microsoft\SystemCertificates\Root
+>2、删除HKEY_CURRENT_USER\Software\Microsoft\SystemCertificates\Root\Certificates
+>3、删除HKEY_CURRENT_USER\Software\Microsoft\SystemCertificates\Root
 
 
 可以参照以下步骤1、2、3、4操作：
