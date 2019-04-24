@@ -1,1 +1,6 @@
 https://www.jianshu.com/p/003de2d6bec3?from=timeline
+
+
+sudo update-grub2
+
+添加了windows的引导项（怪怪的倒数第二项），并可以进入windows
